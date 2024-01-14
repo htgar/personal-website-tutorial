@@ -1,20 +1,14 @@
 ---
-
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "About Me";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Htgar's Blog</title>
-  </head>
-  <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-
-    <h1>About Me</h1>
-    <p>I am an Engineering student from Singapore.</p>
-  </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <p>I am an Engineering student from Singapore.</p>
+  <p>I enjoy playing around with cool new technology</p>
+  <p>
+    Check me out on <a href="https://mastodon.world/@htgar">Mastodon</a> or <a
+      href="https://github.com/htgar">Github</a
+    >
+  </p>
+</BaseLayout>
