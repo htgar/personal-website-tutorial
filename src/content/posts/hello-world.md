@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Hello, World!' 
 pubDate: 2024-01-14
 description: 'This is the first post of my new blog'

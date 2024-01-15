@@ -1,11 +1,40 @@
 ---
 import Hamburger from "./Hamburger.astro";
+import Navigation from "./Navigation.astro";
+import ThemeIcon from "./ThemeIcon.astro";
+import Home from "./Home.astro";
+import "../styles/global.css";
 ---
 
-<Hamburger />
-<div class="nav-links">
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/blog">Blog</a>
-  <a href="/tags/">Tags</a>
-</div>
+<style>
+  ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .left {
+    vertical-align: left;
+    display: inline-block;
+  }
+  .right {
+    vertical-align: right;
+    display: inline-block;
+  }
+</style>
+
+<header>
+  <nav>
+    <div class="left"><Home /></div>
+    <div class="right">
+      <ol>
+        <li><Navigation /></li>
+        <li><ThemeIcon /></li>
+        <li><Hamburger /></li>
+      </ol>
+    </div>
+  </nav>
+</header>

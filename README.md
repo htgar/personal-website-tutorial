@@ -1,3 +1,7 @@
+# Personal Website Tutorial
+
+This is a website that I created using the tutorial from [Astro](https://docs.astro.build/en/tutorial/0-introduction/)
+
 # Astro Starter Kit: Minimal
 
 ```sh

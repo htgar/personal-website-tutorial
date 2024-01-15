@@ -20,7 +20,15 @@ h1 {
   font-size: 2.5rem;
 }
 
-/* nav styles */
+  html.dark {
+  background-color: #181825;
+  color: #cdd6f4;
+}
+
+.dark .nav-links a {
+  color: #cba6f7;
+}
+nav styles
 .hamburger {
   padding-right: 20px;
   cursor: pointer;
@@ -31,7 +39,7 @@ h1 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: purple;
 }
 
 .nav-links {
@@ -79,5 +87,7 @@ h1 {
   .hamburger {
     display: none;
   }
+
+
 
 }
